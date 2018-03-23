@@ -5,5 +5,5 @@
 For post-processing the data I use Python and [plotly](http://plot.ly) for its simple and interactive graphs outputted as an html file. 
 
 ### Future Development
-[] Create html template and dashboard for more advanced interactive graphs at once
-[] Serve up local database and check for updates with javascript
+- Create html template and dashboard for more advanced interactive graphs at once
+- Serve up local database and check for updates with javascript
