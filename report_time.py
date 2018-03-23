@@ -50,6 +50,7 @@ fig=Figure(data=data, layout=layout)
 #plot(data, filename='graph.html')
 
 # B) Output div to readme
-div = plot(data, filename='div.html', output_type='div')
-with open("README.md", 'a+') as f:
+div_fname = '/Users/Spencer/Box Sync/Projects/most-recent/smaroukis.github.io/_includes/graph_div.html'
+div = plot(data, output_type='div')
+with open(div_fname, "w+") as f:
     f.write(div)
